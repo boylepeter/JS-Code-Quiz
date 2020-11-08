@@ -19,7 +19,7 @@ function startGame() {
   currentQuestionIndex = 0
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
-  var sec = 75;
+  var sec = 60;
   var time = setInterval(myTimer, 1000);
 
 function myTimer() {
