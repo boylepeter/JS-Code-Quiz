@@ -7,6 +7,12 @@ var nameEl = document.querySelector("#name");
 var people = [{ name: "Bob", }];
 var currentId = 0;
 
+function openPage() { 
+ localStorage.getItem("peopleListEl")
+}
+
+function openPage()
+
 function addPersonToList(event) {
   event.preventDefault();
   var name = nameEl.value;
@@ -15,6 +21,7 @@ function addPersonToList(event) {
   li.innerHTML = name + " Highscore: " + localStorage.getItem("score");
   people.push({ name: name });
   peopleListEl.append(li);
+  localStorage.setItem("highscoreList,", peopleListEl)
 }
 
 
