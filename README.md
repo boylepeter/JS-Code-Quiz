@@ -1,5 +1,8 @@
 # JS-Code-Quiz
 
+Deployed:
+https://boylepeter.github.io/JS-Code-Quiz/
+
 Given the following criteria, the task of creating a Javascript based quiz was presented.
 
 GIVEN I am taking a code quiz
